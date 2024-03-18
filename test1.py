@@ -15,7 +15,8 @@ data = {"Text": [], "Date": [], "Duration": []}
 df = pd.DataFrame(data)
 
 # Open video file
-cap = cv2.VideoCapture("Test_data/test.mp4")
+# cap = cv2.VideoCapture("Test_data/test4.mp4")
+cap = cv2.VideoCapture("/Users/yashwanth/Downloads/Traffic Flow In The Highway - 4K Stock Videos _ NoCopyright _ AllVideoFree.mp4")
 # cap = cv2.VideoCapture(0)
 
 # Initialize text tracking
